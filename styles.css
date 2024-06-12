@@ -1,0 +1,83 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  max-width: 1200px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 0px 8rem 5rem;
+  background-color: #1f2937;
+  color: white;
+  margin: 0 auto;
+}
+.header-nav,
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header-nav h2,
+.header-nav ul:last-child {
+  padding: 0 10px;
+}
+.header-nav ul {
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main-left {
+  width: 40%;
+  padding: 0 10px;
+}
+.header-main-left button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3882f6;
+  color: white;
+  font-weight: 500;
+}
+.header-main-right {
+  width: 60%;
+  padding: 0 10px;
+  display: flex;
+  background-color: grey;
+  max-width: 400px;
+  color: white;
+}
+.header-main-right p {
+  margin: auto auto;
+}
+
+.random-info-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.random-info-items > * {
+  /* width: 12%; */
+  width: 200px;
+}
+.random-info-items > * p {
+  margin: 0 auto;
+  width: 150px;
+}
+.random-info-container h1 {
+  text-align: center;
+}
+
+.random-info-items div div {
+  height: 150px;
+  width: 150px;
+  border: solid 3px blue;
+  border-radius: 10px;
+  margin: 0 auto;
+}
