@@ -105,7 +105,7 @@ header {
   text-align: right;
 }
 
-footer {
+.div-foot-container {
   padding: 5rem 0;
 }
 .div-foot-main {
@@ -143,4 +143,20 @@ footer {
   .main-header-container {
     padding: 0px 5px 50px;
   }
+  .div-foot-main {
+    padding: 20px 20px;
+  }
+}
+
+footer {
+  height: 70px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+footer p {
+  margin: auto 0;
+  color: white;
 }
