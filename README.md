@@ -3,7 +3,7 @@
   <li>Successfully finished the  Project: Landing Page</li>
 </ul>
 
-<p>Website Link: <a href=''></a></p>
+<p>Website Link: <a href='https://wcarl12.github.io/Odin-Landing-Page/'>Click Here</a></p>
 
 <h2>Website Preview: </h2>
 
